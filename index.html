@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4 Player Ludo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎲 Ludo Game (4 Player)</h1>
+
+<div id="board">
+  <div id="token0" class="token red"></div>
+  <div id="token1" class="token green"></div>
+  <div id="token2" class="token blue"></div>
+  <div id="token3" class="token yellow"></div>
+</div>
+
+<button onclick="rollDice()">Roll Dice 🎲</button>
+<button onclick="restartGame()">Restart</button>
+
+<p id="info"></p>
+
+<audio id="diceSound" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg"></audio>
+<audio id="moveSound" src="https://actions.google.com/sounds/v1/cartoon/pop.ogg"></audio>
+<audio id="winSound" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

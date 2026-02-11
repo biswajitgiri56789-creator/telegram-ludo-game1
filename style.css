@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+#board {
+  width: 420px;
+  height: 420px;
+  margin: 20px auto;
+  background: linear-gradient(45deg, red, green, blue, yellow);
+  position: relative;
+  border: 5px solid #333;
+}
+
+.token {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.red { background: red; }
+.green { background: green; }
+.blue { background: blue; }
+.yellow { background: yellow; }
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+}
